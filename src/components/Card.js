@@ -6,7 +6,7 @@ export default function CovidData() {
 
   useEffect(() => {
 
-    axios.get('https://api.covid19api.com/summary')
+    axios.get('http://covidtracking.com/api/us')
     .then(res => {
       console.log(res.data);
       setData(res)
