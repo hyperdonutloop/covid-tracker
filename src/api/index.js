@@ -33,9 +33,7 @@ export const fetchDailyData = async () => {
       date: dailyData.reportDate,
     }));
     return modifiedData;
-  } catch (error) {
-    errorMessage: {'Unable to retrieve data'}
-  }
+  } catch (error) {}
 };
 
 export const fetchCountries = async () => {
