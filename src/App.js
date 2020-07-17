@@ -30,31 +30,4 @@ function App () {
   )
 }
 
-// function App(props) {
-//   const [stuff, setStuff ] = useState({
-//     data: {},
-//     country: '',
-//   })
-
-//   useEffect(() => {
-//     async function fetchedData() {
-//       await fetchData()
-
-//       setStuff({ data: fetchedData})
-//     }
-//     fetchedData();
-//   })
-
-//   const handleCountryChange = async (country) => {
-//     const fetchedData = await fetchData(country);
-//     setStuff({ data: fetchedData, country: country })
-//   }
-
-//   return (
-//     <div>
-//       hello
-//     </div>
-//   );
-// }
-
 export default App;

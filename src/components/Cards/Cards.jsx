@@ -47,7 +47,7 @@ const Cards = ({
             component={Card}
             xs={12}
             md={2}
-            // className={cx(styles.Card, detail.style)}
+            className="cards"
             key={index}
           >
             <CountUp
